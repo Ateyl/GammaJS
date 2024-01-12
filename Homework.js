@@ -143,7 +143,7 @@ console.log(adultNames);
 
 const strings = ['Star', 'Planet', 'Comet', 'Interstellar', 'Space'];
 
-let longest = '';
+let longest = [''];
 
 strings.forEach(str => {
     if (str.length > longest.length) {
@@ -158,4 +158,6 @@ console.log(longest);
 
 // Напишите программу которая проанализирует данный массив и найдёт в нем наибольшее число кратное трём
 
-const numbers = [3, 15, 23, 56, 66, 71, 12, 90];       // todo делать
+// const numbers = [3, 15, 23, 56, 66, 71, 12, 90];       // todo делать
+
+// function 
