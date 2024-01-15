@@ -2,13 +2,13 @@
 // Как только цикл дойдёт до 23 разорвать цикл
 // const numbers = [4, 3, 10, 99, 23, 41, 5, 12, 23, 41, 12, 32];
 
-// for (let i = 0; i < numbers.length; i++) {
-//     if (numbers[i] % 2 === 0) {
-//         console.log(numbers[i]);                              // * не совсем понял как это сделать
-//     } if (i > 22 ) {
-//         break
-//     }
-// }
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 === 0) {
+        console.log(numbers[i]);                              // * не совсем понял как это сделать
+    } if (i > 22 ) {
+        break
+    }
+}
 
 
 // Для заданного массива написать цикл который выведет в консоль
@@ -25,15 +25,15 @@
 
 const people = [{name: 'Jack', surname: 'Smith'}, {name: 'Bob', surname: 'Summers'}, {name: 'Sarah', surname: 'Gold'}, {name: 'Susan', surname: 'Vega'}, {name: 'Mary', surname: 'Roberts'}];
 
-// let html = "<ul>";
+let html = "<ul>";
 
-// for (let i = 0; i < people.length; i++) {
-//   html += `<li><h1></h1></li>`;
-// }
+for (let i = 0; i < people.length; i++) {
+  html += `<li><h1></h1></li>`;
+}
 
-// html += "</ul>";
+html += "</ul>";
 
-// console.log(html);
+console.log(html);
 
 
 
@@ -43,14 +43,14 @@ const people = [{name: 'Jack', surname: 'Smith'}, {name: 'Bob', surname: 'Summer
 
 
 
-// function EvenOdd (start, end) {
-//     for (let i = start; i <= end; i++) {
-//         const even = i % 2 === 0;
-//         console.log(`${i} - ${even ? 'even' : 'odd'}`);
-//     }
-// }
+    function EvenOdd (start, end) {
+        for (let i = start; i <= end; i++) {
+            const even = i % 2 === 0;
+            console.log(`${i} - ${even ? 'even' : 'odd'}`);
+        }
+    }
 
-// EvenOdd (1, 20)
+    EvenOdd (1, 20)
 
 
 
